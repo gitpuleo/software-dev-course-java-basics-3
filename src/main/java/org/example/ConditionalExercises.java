@@ -13,11 +13,11 @@ public class ConditionalExercises {
     public String getAgeGroup(int age) {
 
         if (age < 13) {
-            return "Child";
+            return "child";
         } else if (age > 12 && age < 20) {
-            return "Teen";
+            return "teen";
         } else {
-            return "Adult";
+            return "adult";
         }
         // Replace the line below with code that returns "child" if age is less than 13,
         // "teen" if age is less than 20, and "adult" otherwise
